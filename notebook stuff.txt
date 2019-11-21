@@ -1,0 +1,6 @@
+Created a new program 'when things break' to fix the uneven driving issues. 
+What we did was have ea. wheel go a set distance (using encoders) at a set speed.
+We recorded the time it took to complete for each motor and ran the test 10 times.
+We averaged each time and then calculated the ratio of the times relative to ea. other.
+(The max number was 1). We are going to use this to scale the motor powers during auto.
+TODO: add the coefficients to the hardware
